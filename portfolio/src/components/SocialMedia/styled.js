@@ -17,6 +17,7 @@ export const Main = styled.div`
   }};
   margin-top: ${(props) => props.mt};
   height: 40%;
+  z-index: 1;
 `;
 export const Link = styled.a`
   cursor: pointer;

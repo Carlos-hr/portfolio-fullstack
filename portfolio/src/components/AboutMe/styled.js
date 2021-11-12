@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { dark, secondary, tertiary, whiteText } from "../../constants/colors";
+import profilePicture from "../../assets/images/profile-picture.png";
 
 export const Main = styled.div`
   display: flex;
@@ -78,12 +79,13 @@ export const Button = styled.button`
   }
 `;
 
-export const Link = styled.a`
-  text-decoration: none;
-  color: black;
-`;
 export const RightSide = styled.div`
   width: 49.5%;
   margin-left: 1%;
-  background-color: ${secondary};
+  background-color: black;
+  background-image: url(${profilePicture});
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
 `;
