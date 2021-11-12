@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primary, tertiary, whiteText } from "../../constants/colors";
+import { dark, secondary, tertiary, whiteText } from "../../constants/colors";
 
 export const Main = styled.div`
   display: flex;
@@ -7,7 +7,7 @@ export const Main = styled.div`
 `;
 
 export const LeftSide = styled.div`
-  background-color: ${primary};
+  background-color: ${dark};
   width: 49.5%;
   color: ${whiteText};
 `;
@@ -16,9 +16,6 @@ export const Name = styled.div`
   margin: 2vw;
   font-size: 21px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.28px;
 `;
 
@@ -81,8 +78,12 @@ export const Button = styled.button`
   }
 `;
 
+export const Link = styled.a`
+  text-decoration: none;
+  color: black;
+`;
 export const RightSide = styled.div`
   width: 49.5%;
   margin-left: 1%;
-  background-color: ${tertiary};
+  background-color: ${secondary};
 `;

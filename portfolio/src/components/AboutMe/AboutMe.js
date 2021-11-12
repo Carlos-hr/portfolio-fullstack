@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import SocialMedia from "../SocialMedia/SocialMedia";
 import {
   LeftSide,
   Main,
@@ -13,11 +14,15 @@ import {
   Skill,
   Button,
   Name,
+  Link,
 } from "./styled";
+import resume from '../../assets/resume.pdf'
 
 const AboutMe = () => {
+  const blob = new Blob([resume], {type: 'application/pdf'})
+  const url = URL.createObjectURL(blob)
   return (
-    <Main>
+    <Main id="about">
       <LeftSide>
         <Name>Carlos Henrique</Name>
         <Content>
@@ -54,12 +59,16 @@ const AboutMe = () => {
             </Skills>
           </div>
           <div>
-            <Button>CV em PDF</Button>
+            <Button>
+              <Link href={resume} download={url} rel="noreferrer">
+                CV em PDF
+              </Link>
+            </Button>
           </div>
         </Content>
       </LeftSide>
       <RightSide>
-        <Navigation />
+        <SocialMedia direction={"column"} mt="20%" />
       </RightSide>
     </Main>
   );
