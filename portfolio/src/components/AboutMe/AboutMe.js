@@ -1,7 +1,5 @@
 import React from "react";
 import SocialMedia from "../SocialMedia/SocialMedia";
-import profilePicture from "../../assets/images/profile-picture.png";
-
 import {
   LeftSide,
   Main,

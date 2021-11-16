@@ -15,7 +15,7 @@ const LinkedinIcon = () => {
           d="M0.01 0.054L20.113 0.054 20.113 19.191 0.01 19.191z"
         />
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(0 8.305)">
           <mask id="prefix__b" fill="#fff">
             <use xlinkHref="#prefix__a" />

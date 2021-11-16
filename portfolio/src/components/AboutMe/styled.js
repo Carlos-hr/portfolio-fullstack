@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { dark, secondary, tertiary, whiteText } from "../../constants/colors";
+import { dark, tertiary, whiteText } from "../../constants/colors";
 import profilePicture from "../../assets/images/profile-picture.png";
 
 export const Main = styled.div`
