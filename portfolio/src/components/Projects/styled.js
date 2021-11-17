@@ -9,23 +9,27 @@ import {
 } from "../../constants/colors";
 
 export const Main = styled.div`
-  height: 120vh;
+  width: 100vw;
+  min-height: fit-content;
   display: grid;
-  grid-template-rows: 1fr repeat(3, 4fr) 1fr;
+  grid-template-rows: 0.5fr repeat(3, 4fr) 1fr;
   color: ${whiteText};
   overflow: hidden;
+
+  @media screen and (max-width: 520px) {
+    justify-content: center;
+  }
 `;
 
-export const PageTitle = styled.p`
+export const PageTitle = styled.div`
   font-size: 25px;
   font-weight: bold;
   letter-spacing: -0.15px;
   font-weight: bold;
   text-align: center;
-  max-height: 10vh;
   color: black;
   margin-top: 1vh;
-  margin-bottom: 0;
+  padding-bottom: 1vh;
 `;
 
 export const ProjectRow = styled.div`
@@ -47,13 +51,27 @@ export const ProjectRow = styled.div`
         return;
     }
   }};
+
+  @media screen and (max-width: 520px) {
+    padding: 0;
+  }
 `;
 
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
+
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+    margin-top: 2vh;
+  }
+`;
+
+export const Img = styled.img`
+  width: 160px;
+  height: 140px;
 `;
 
 export const Description = styled.div`
@@ -62,6 +80,12 @@ export const Description = styled.div`
   text-align: justify;
   width: 70%;
   justify-content: space-around;
+
+  @media screen and (max-width: 520px) {
+    width: 100%;
+    margin-left: 2vw;
+    text-align: inherit;
+  }
 `;
 
 export const Title = styled.span`
@@ -103,21 +127,19 @@ export const ButtonMore = styled.button`
 `;
 export const GitButtonContainer = styled.div`
   display: flex;
-  width: 40%;
+  width: 240px;
   justify-content: space-between;
   margin-top: 2vh;
   white-space: nowrap;
 
-  @media screen and (max-width: 1024px) {
-    width: 55%;
-  }
-
-  @media screen and (min-width: 1025px) and (max-width: 1360px) {
-    width: 45%;
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+    width: 150px;
+    align-self: center;
   }
 `;
 export const ButtonGit = styled.button`
-  width: 150px;
+  width: 100%;
   height: 30px;
   border: none;
   cursor: pointer;
@@ -149,4 +171,8 @@ export const ButtonGit = styled.button`
         return;
     }
   }};
+
+  @media screen and (max-width: 520px) {
+    margin-bottom: 1vh;
+  }
 `;

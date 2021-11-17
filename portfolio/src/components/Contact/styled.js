@@ -18,11 +18,21 @@ export const Container = styled.div`
   margin: 0 15% 0 15%;
 `;
 
+export const Img = styled.img`
+  width: 140px;
+  height: 140px;
+`;
+
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
   justify-content: space-evenly;
+  padding-left: 5vw;
+
+  @media screen and (max-width: 500px) {
+    width: 80%;
+  }
 `;
 
 export const Title = styled.span`
@@ -37,7 +47,7 @@ export const Text = styled.span`
 `;
 
 export const SocialMediaContainer = styled.div`
-  width: 20%;
+  width: 300px;
   align-self: center;
   justify-self: center;
 `;

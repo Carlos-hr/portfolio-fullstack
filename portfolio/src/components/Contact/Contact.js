@@ -3,6 +3,7 @@ import {
   Container,
   Description,
   Footer,
+  Img,
   Main,
   SocialMediaContainer,
   Text,
@@ -15,7 +16,7 @@ const Contact = () => {
   return (
     <Main id="contact">
       <Container>
-        <img src={EmailIcon} alt="email" width="193" height="193" />
+        <Img src={EmailIcon} alt="email"  />
         <Description>
           <Title>Contate-me!</Title>
           <Text>

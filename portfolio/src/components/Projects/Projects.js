@@ -5,6 +5,7 @@ import {
   Description,
   Details,
   Container,
+  Img,
   Main,
   PageTitle,
   ProjectRow,
@@ -29,7 +30,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img alt="project" width="180" height="130" src={cubo} />
+            <Img alt="project" width="180" height="130" src={cubo} />
           </a>
 
           <Description>
@@ -50,7 +51,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <ButtonGit color="tertiary" fontcolor="black">
-                  front-end GitHub
+                  Front-end GitHub
                 </ButtonGit>
               </a>
 
@@ -60,7 +61,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <ButtonGit color="tertiary" fontcolor="black">
-                  back-end GitHub
+                  Back-end GitHub
                 </ButtonGit>
               </a>
             </GitButtonContainer>
@@ -75,7 +76,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img alt="project" width="180" height="130" src={promobit} />
+            <Img alt="project" width="180" height="130" src={promobit} />
           </a>
 
           <Description>
@@ -96,7 +97,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <ButtonGit color="dark" fontcolor="white">
-                  ver no GitHub
+                  Ver no GitHub
                 </ButtonGit>
               </a>
             </GitButtonContainer>
@@ -111,7 +112,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img alt="project" width="180" height="120" src={brainn} />
+            <Img alt="project" width="180" height="120" src={brainn} />
           </a>
 
           <Description>
@@ -132,7 +133,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <ButtonGit color="tertiary" fontcolor="black">
-                  ver no GitHub
+                  Ver no GitHub
                 </ButtonGit>
               </a>
             </GitButtonContainer>

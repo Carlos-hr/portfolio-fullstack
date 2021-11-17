@@ -8,10 +8,13 @@ import {
 
 export const Main = styled.div`
   margin-top: 1vh;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   color: white;
+  @media screen and (max-width: 425px) {
+    margin: 0;
+  }
 `;
 
 export const Top = styled.div`
@@ -26,7 +29,7 @@ export const Title = styled.div`
   font-size: 25px;
   letter-spacing: -0.15px;
   text-align: center;
-  margin-top: 3vh;
+  margin-top: 2vh;
 `;
 
 export const Stack = styled.div`
@@ -34,6 +37,11 @@ export const Stack = styled.div`
   width: 80%;
   height: 80%;
   justify-content: space-around;
+
+  @media screen and (max-width: 425px) {
+    width: 90%;
+    height: 90%;
+  }
 `;
 
 export const SkillTitle = styled.div`
@@ -42,7 +50,7 @@ export const SkillTitle = styled.div`
   letter-spacing: -0.32px;
 
   @media screen and (max-width: 872px) {
-    font-size: 42px;
+    font-size: 38px;
   }
 `;
 export const Container = styled.div`
@@ -57,7 +65,7 @@ export const Bottom = styled.div`
   height: 49.5%;
   margin-top: 1%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 1vw;
   overflow: hidden;
 `;
@@ -76,25 +84,23 @@ export const SkillContainer = styled.div`
     }
   }};
   display: grid;
-  grid-template-rows: 0.5fr 1fr 4fr;
+  grid-template-rows: 1fr 8fr;
 `;
 
 export const TitleEducation = styled.div`
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  margin-top: 2vh;
+  color: black;
 `;
 
 export const EducationName = styled.div`
   font-size: 21px;
   font-weight: bold;
-  grid-row: 2/3;
-  margin: 3vh 2vw 0 2vw;
+  margin: 2vh 2vw 0 2vw;
 `;
 
 export const EducationDescription = styled.p`
-  grid-row: 3/4;
   margin: 0 2vw 0 2vw;
   font-size: 14px;
   letter-spacing: -0.16px;

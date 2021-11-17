@@ -9,6 +9,10 @@ export const NavBar = styled.div`
   position: fixed;
   top: 0;
   z-index: 1;
+
+  @media screen and (max-width: 567px) {
+    padding-top: 5vh;
+  }
 `;
 
 export const ListItem = styled.li`

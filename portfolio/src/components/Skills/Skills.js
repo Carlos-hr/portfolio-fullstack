@@ -42,6 +42,7 @@ const Skills = () => {
           </Container>
         </Stack>
       </Top>
+      <TitleEducation>Educação</TitleEducation>
       <Bottom>
         <SkillContainer color="primary">
           <EducationName>Graduação em Engenharia Elétrica</EducationName>
@@ -59,23 +60,7 @@ const Skills = () => {
         </SkillContainer>
 
         <SkillContainer color="primaryLight">
-          <TitleEducation>Educação</TitleEducation>
           <EducationName>Curso de Web Full Stack na Labenu</EducationName>
-          <EducationDescription>
-            6 meses - 2020
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </EducationDescription>
-        </SkillContainer>
-
-        <SkillContainer color="tertiary">
-          <EducationName>Curso Inglês</EducationName>
           <EducationDescription>
             6 meses - 2020
             <br />

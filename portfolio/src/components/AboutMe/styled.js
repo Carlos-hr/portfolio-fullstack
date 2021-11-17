@@ -5,12 +5,40 @@ import profilePicture from "../../assets/images/profile-picture.png";
 export const Main = styled.div`
   display: flex;
   min-height: 100vh;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+  }
 `;
 
 export const LeftSide = styled.div`
   background-color: ${dark};
   width: 49.5%;
   color: ${whiteText};
+
+  @media screen and (max-width: 768px) {
+    height: 60vh;
+    width: 100%;
+  }
+`;
+
+export const RightSide = styled.div`
+  width: 49.5%;
+  margin-left: 1%;
+  background-color: black;
+  background-image: url(${profilePicture});
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+
+  @media screen and (max-width: 768px) {
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+  }
 `;
 
 export const Name = styled.div`
@@ -29,15 +57,24 @@ export const Content = styled.div`
   justify-content: space-around;
   margin-left: 10%;
   margin-top: 10%;
+
+  @media screen and (max-width: 567px) {
+    margin-left: 1%;
+    width: 100%;
+  }
 `;
 
 export const Title = styled.div`
   font-size: 50px;
   font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: 42px;
+  }
 `;
 
 export const Job = styled.div`
-  font-size: 24px;
+  font-size: 22px;
 `;
 
 export const ShorText = styled.div`
@@ -49,6 +86,13 @@ export const About = styled.p`
   font-size: 12px;
   font-weight: normal;
   text-align: justify;
+  display: inline;
+  margin-block-start: 0;
+  margin-block-end: 0;
+
+  @media screen and (max-width: 425px) {
+    text-align: inherit;
+  }
 `;
 
 export const Skills = styled.div`
@@ -62,6 +106,10 @@ export const Skill = styled.span`
   border-left: 2px solid white;
   padding-left: 0.5vw;
   margin-left: 2vw;
+
+  @media screen and (max-width: 360px) {
+    font-size: 14px;
+  }
 `;
 
 export const Button = styled.button`
@@ -77,15 +125,4 @@ export const Button = styled.button`
   :hover {
     opacity: 0.8;
   }
-`;
-
-export const RightSide = styled.div`
-  width: 49.5%;
-  margin-left: 1%;
-  background-color: black;
-  background-image: url(${profilePicture});
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.8;
 `;

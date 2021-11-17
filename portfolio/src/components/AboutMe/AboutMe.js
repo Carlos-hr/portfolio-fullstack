@@ -22,19 +22,17 @@ const AboutMe = () => {
         <Name>Carlos Henrique</Name>
         <Content>
           <div>
-            <Title className="title">
+            <Title>
               Eu sou
               <br />
               Carlos Henrique
             </Title>
 
-            <Job className="job">Desenvolvedor Web Full Stack</Job>
-            <ShorText className="short-text">
-              Apaixonado por tecnologia e programação.
-            </ShorText>
+            <Job>Desenvolvedor Web Full Stack</Job>
+            <ShorText>Apaixonado por tecnologia e programação.</ShorText>
           </div>
           <div>
-            <About className="about">
+            <About>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
