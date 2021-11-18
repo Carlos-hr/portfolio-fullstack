@@ -18,6 +18,11 @@ export const Main = styled.div`
   margin-top: ${(props) => props.mt};
   height: 40%;
   z-index: 1;
+
+  @media screen and (max-width: 768px) {
+    height: 80%;
+    margin-top: 10%;
+  }
 `;
 export const Link = styled.a`
   cursor: pointer;
