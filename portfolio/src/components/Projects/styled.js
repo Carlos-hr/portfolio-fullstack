@@ -12,7 +12,7 @@ export const Main = styled.div`
   width: 100vw;
   min-height: fit-content;
   display: grid;
-  grid-template-rows: 0.5fr repeat(3, 4fr) 1fr;
+  grid-template-rows: 0.5fr repeat(3, 4fr) 0.5fr;
   color: ${whiteText};
   overflow: hidden;
 
@@ -30,6 +30,7 @@ export const PageTitle = styled.div`
   color: black;
   margin-top: 1vh;
   padding-bottom: 1vh;
+  padding-top: 2vh;
 `;
 
 export const ProjectRow = styled.div`
@@ -61,7 +62,6 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* width: 100%; */
 
   @media screen and (max-width: 520px) {
     flex-direction: column;

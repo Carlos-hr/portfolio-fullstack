@@ -9,15 +9,12 @@ export const NavBar = styled.div`
   position: fixed;
   top: 0;
   z-index: 1;
-
-  @media screen and (max-width: 567px) {
-    padding-top: 5vh;
-  }
+  height: 50px;
 `;
 
 export const ListItem = styled.li`
   list-style: none;
-  margin: 2vw;
+  margin: 1vh 2vw 0 2vw;
   font-size: 16px;
   cursor: pointer;
 `;

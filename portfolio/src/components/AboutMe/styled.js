@@ -19,7 +19,7 @@ export const LeftSide = styled.div`
   color: ${whiteText};
 
   @media screen and (max-width: 768px) {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
   }
 `;
@@ -35,17 +35,18 @@ export const RightSide = styled.div`
   opacity: 0.8;
 
   @media screen and (max-width: 768px) {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     margin: 0;
   }
 `;
 
 export const Name = styled.div`
-  margin: 2vw;
+  margin: 0 2vw 0 2vw;
   font-size: 21px;
   font-weight: bold;
   letter-spacing: -0.28px;
+  padding-top: 5vh;
 `;
 
 export const Content = styled.div`

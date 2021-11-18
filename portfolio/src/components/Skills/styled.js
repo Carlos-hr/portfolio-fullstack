@@ -23,6 +23,7 @@ export const Top = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 3vh;
 `;
 
 export const Title = styled.div`
