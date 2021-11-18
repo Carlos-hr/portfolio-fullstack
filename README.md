@@ -20,9 +20,9 @@ A aplicação consiste em uma SPA que segue uma estrutura de uso de HTML e CSS, 
   <li>React Router</li>
   <li>Styled-components</li>
 
-## 🚀 Rodando localmente o <Portofolio>
+## 🚀 Rodando localmente o Portofolio
 
-Para instalar o <Portfolio>, siga estas etapas:
+Para instalar o Portfolio, siga estas etapas:
 
 Faça o clone desse repositório em seu computador e execute o comando:
 
