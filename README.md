@@ -10,7 +10,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Adição de novos projetos;
 - [ ] Botão mostrar mais projetos para aumentar a tela e disponibilzar scroll vertical;
 - [ ] Ajuste na responsividade em telas maiores;
-- [ ] Estilização das páginas;
+- [ ] Texto das páginas;
 
 ## :robot: Tecnologias: 
 
@@ -18,7 +18,7 @@ A aplicação consiste em uma SPA que segue uma estrutura de uso de HTML e CSS, 
 
 ## :books: Bibliotecas utilizadas 
   <li>React Router</li>
-  <li>Styled-components</li
+  <li>Styled-components</li>
 
 ## 🚀 Rodando localmente o <Portofolio>
 
