@@ -1,6 +1,6 @@
 # Portfolio pessoal
 
-> Aplicação desenvolvida para expor projetos desenvolvidos
+> Aplicação com objetivo de expor projetos desenvolvidos.
 
 ### Ajustes e melhorias
 
